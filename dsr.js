@@ -4,7 +4,7 @@
 
 function auto_login() {
 	var username = "aautomat";
-	var password = "Clarendon2023"
+	var password = "Waterwall-2023-04"
 	//Fill Credentials
 	document.querySelector('input[name="j_username"]').value = username;
 	document.querySelector('input[name="j_password"]').value = password;
