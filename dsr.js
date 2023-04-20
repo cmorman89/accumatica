@@ -2,6 +2,7 @@
 // https://skytouchhos.com/pms/ReportViewStart.init
 //Login
 
+
 function auto_login() {
 	var username = "aautomat";
 	var password = "Waterwall-2023-04";
