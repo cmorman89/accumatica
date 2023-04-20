@@ -4,12 +4,12 @@
 
 function auto_login() {
 	var username = "aautomat";
-	var password = "Waterwall-2023-04"
+	var password = "Waterwall-2023-04";
 	//Fill Credentials
 	document.querySelector('input[name="j_username"]').value = username;
 	document.querySelector('input[name="j_password"]').value = password;
 	//Login
-	document.querySelector('#greenButton').click();
+	setTimeout(function() {document.querySelector('#greenButton').click();},1000);
 }
 
 
