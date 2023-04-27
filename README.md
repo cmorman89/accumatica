@@ -1,3 +1,3 @@
 # Accumatica Automations
-- [Accumatica Notes](Accumatica/HIA_Notes.md)
-- [Skytouch Code](Skytouch/skytouch.js)
+- [Accumatica Notes](notes_hia.md)
+- [Skytouch Code](pms/skytouch/skytouch.js)
