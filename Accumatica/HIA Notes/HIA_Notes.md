@@ -1,7 +1,7 @@
-// EXTERNAL PLATFORM MAPPING
+# EXTERNAL PLATFORM MAPPING
 
-    // PMS and POS Data:
-        //Configuration:
+## PMS and POS Data:
+        ### Configuration:
             1. Daily Report > Daily Report Preferences
                 - Items broken into tabs and rows
                 - "DAILY REPORT MANAGEMENT" tab manages individual line items
