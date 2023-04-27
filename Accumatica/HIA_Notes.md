@@ -14,19 +14,19 @@
     - Input fields seem to have same name on a given tab
 
 ### Process:
-1. Create an array mapping:
+1. Create a {key: [array]} object mapping:
     ```
-    [
-    [field_name0, tab0, column0, row0, value0],
-    [field_name1, tab1, column1, row1, value1],
-    etc
-    ]
+    {
+        field_name0: [tab0, column0, row0, value0],
+        field_name1: [tab1, column1, row1, value1],
+        etc
+    }
 
     **NOTE/HINT** List of all line items by: Daily Report Preferences > Export Template:
-    - Col A - Tab Number
-    - Col B - Tab Label
-    - Col C - Section ID (function unknown)
-    - Col D - Field Name
+        - Col A - Tab Number
+        - Col B - Tab Label
+        - Col C - Section ID (function unknown)
+        - Col D - Field Name
     ```
 2. Select:
     1. Hotel
