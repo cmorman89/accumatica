@@ -15,30 +15,29 @@
 
 ### Process:
 1. Create a {key: [array]} object mapping:
-    ```
-    var daily_report = {field_name0: [tab0, column0, row0, value0],
-                        field_name1: [tab1, column1, row1, value1],
-                        etc};
 
+    `var daily_report = `
+    ```
+    {field_name0: [tab0, column0, row0, value0],
+    field_name1: [tab1, column1, row1, value1],
+    etc};
+    ```
     **NOTE/HINT** List of all line items by: Daily Report Preferences > Export Template:
+        ```
         - Col A - Tab Number
         - Col B - Tab Label
         - Col C - Section ID (function unknown)
         - Col D - Field Name
-    ```
+        ```
 2. Select:
     1. Hotel
     2. Date
 3. Input Values:
     1. Select Tab:
     2. Click Item:
-        ```
-        document.querySelector("#ctl00_phG_tab_t3_gridTab3_row_1 > td:nth-child(4)").click();
-        ```
+        `document.querySelector("#ctl00_phG_tab_t3_gridTab3_row_1 > td:nth-child(4)").click();`
     3. Input Value:
-        ```
-        document.querySelector("#ctl00_phG_tab_t3_gridTab3_row_1 > td:nth-child(4)").value = **value**;
-        ```
+        `document.querySelector("#ctl00_phG_tab_t3_gridTab3_row_1 > td:nth-child(4)").value = **value**;`
 
 
 ### **Ideas!**
