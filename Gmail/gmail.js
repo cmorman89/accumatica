@@ -1,3 +1,26 @@
+// GMAIL FUNCTIONS
+// -- CREATED BY CHARLES MORMAN
+//
+// Logic Structure
+// -- Open HTML version of Gmail
+// -- Check for secondary authentication request
+// -- -- Login or bypass
+// -- Compose email
+// -- -- Pass report date & path
+// -- Attach file
+// -- Send
+// Future: Log to Database?
+
+// Variables
+
+var gmail_passw = "Waterwall401;"
+var email_to = "prohospitality@hiareports.com";
+var email_subject = "SkyTouch PMS Pro Hospitality Nine, LLC 05-08-2023";
+var email_body = "";
+
+
+
+
 # COMPOSE
 ## URL
 `https://mail.google.com/mail/u/0/h/m1scc1fisoig/?&cs=b&pv=tl&v=b`

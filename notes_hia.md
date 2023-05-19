@@ -1,4 +1,4 @@
-# EXTERNAL PLATFORM MAPPING
+# Accumatica Notes
 
 ## PMS and POS Data:
 ### Configuration:
@@ -42,3 +42,18 @@
 
 ### **Ideas!**
 - `element.innerHTML();` to match field and with object key (less likely to break upon template changes)
+
+### Daily Entry Targets
+1. Form (maybe)
+    - `document.querySelector("#aspnetForm")`
+Date
+    - `document.querySelector("#ctl00_phF_form_edDate_text")`<- no
+    - `document.querySelector("#ctl00_phF_form_edDate_text.au-target.editor").value`
+    ```
+    <form name="aspnetForm" method="post" action="./HI999999.aspx?timeStamp=c2990115d59d1cf5150516412103924129F6B700&amp;unum=0&amp;HideScript=On" id="aspnetForm" autocomplete="off" enctype="multipart/form-data">
+    Form Extract:
+    Method: Post
+    REquest URl: https://profitguide5.hotelinvestorapps.com/Pages/HIA/HI999999.aspx?unum=0&HideScript=On
+    Encoded ctl00%24phF%24form%24edDate%24text: 4%2F17%2F2023
+    Decoded ctl00$phF$form$edDate$text: 4/17/2023
+    ```
